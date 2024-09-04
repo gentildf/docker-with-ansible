@@ -1,0 +1,5 @@
+- name: Config env Docker
+  hosts: all
+  become: yes
+  roles:
+    - docker
